@@ -39,7 +39,6 @@
 	</div>
 
 
-
 <?php
 	foreach($messages as $message) {
 		// var_dump($message);
@@ -50,7 +49,6 @@
 
 	<!-- delete button -->
 	<!-- <?php echo "<p><input type='submit' name='deleteItem' value='Delete' {$message['id']}' /></p>"; ?> -->
-
 
 
 <?php

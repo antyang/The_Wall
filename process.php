@@ -21,8 +21,6 @@
 			die();
 		}
 
-
-
 //----- Functions -----//
 
 	function register_user($post){
