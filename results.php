@@ -37,7 +37,7 @@
 			<input type="submit" class="btn btn-primary" value="Post a message">
 		</form>
 	</div>
-
+	
 
 <?php
 	foreach($messages as $message) {
