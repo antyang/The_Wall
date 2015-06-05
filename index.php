@@ -27,8 +27,6 @@ session_start();
 <body>
 
 
-
-
 	<header align="center">The Wall</header>
 
 	<div class="container">
@@ -38,8 +36,8 @@ session_start();
 		<div class="col-md-2 col-md-offset-4" align="left">
 			<label>Login</label>
 				<form action="process.php" method="post">
-					Email: <input type="email" name="email" placeholder="Enter email address">
-					Password: <input type="password" name="password" placeholder="Enter password">
+					<input class="form-control" type="email" name="email" placeholder="Enter email address">
+					<input class="form-control" type="password" name="password" placeholder="Enter password">
 					<input type="submit" class="btn btn-primary btn-sm"value="Login">
 					<input type="hidden" name="action" value="login">
 				</form>
@@ -57,18 +55,18 @@ session_start();
 				echo "<p class='success'>{$_SESSION['success']} </p>";
 		}		unset($_SESSION['success']);
 	?>
-	
+
 		</div>
 
 		<!-- REGISTER Form-->
 		<div class="col-md-2 col-md-offset-1" align="left">
 			<label>Register</label>
 				<form action="process.php" method="post">
-					First Name: <input type="text" name="first_name">
-					Last Name: <input type="text" name="last_name">
-					Email: <input type="email" name="email">
-					Password: <input type="password" name="password">
-					Confirm Password: <input type="password" name="confirm_password">
+					<input class="form-control" type="text" name="first_name" placeholder="First Name">
+					<input class="form-control" type="text" name="last_name" placeholder="Last Name">
+					<input class="form-control" type="email" name="email" placeholder="Email">
+					<input class="form-control" type="password" name="password" placeholder="Password">
+					<input class="form-control" type="password" name="confirm_password" placeholder="Confirm Password">
 					<input type="submit" class="btn btn-primary btn-sm" value="Register">
 					<input type="hidden" name="action" value="register">
 				</form>

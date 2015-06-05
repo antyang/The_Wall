@@ -24,7 +24,7 @@
 	<a href="process.php">Log Off</a>
 	</h4>
 
-	<h1 align="center">The Wall</h1>
+	<h1 align="center">My Wall</h1>
 		
 
 <div class="row">
